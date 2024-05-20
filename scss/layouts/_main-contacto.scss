@@ -1,0 +1,64 @@
+.contacto{
+    display: flex;
+    background-color: $celeste
+}
+
+.texto-nosotros{
+    display: flex;
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 3rem;
+}
+
+.imagenejem{
+    display: flex;
+    position: relative;
+    margin-top: 6rem;
+    margin-left: 4rem;
+    margin-bottom: 6rem;
+    width: 200px;
+    height: 300px;   
+}
+
+.lista-form input{
+    display: flex;
+    position: relative;
+    color: $negro;
+    background-color: $marronclaro;
+    margin-top: 35px;
+    margin-left: 2rem;
+}
+
+.Genero{
+    display: flex;
+    flex-direction: row;
+}
+
+.enviar-but{
+    display: flex;
+    position: relative;
+    margin: 10px;
+}
+
+.ubicacion-contacto{
+    display: flex;
+    background-color: $celeste;
+}
+
+.ubicacion-contacto img{
+    margin: 20px;
+    position: relative;
+    margin-top: 70px;
+    margin-bottom: 60px;
+    left: 440px;
+}
+
+.ubicacion-contacto iframe{
+    display: flex;
+    position: relative;
+    margin: 60px;
+    margin-bottom: 300px;
+    width: 800px;
+    top: 200px;
+    right: 240px;
+}

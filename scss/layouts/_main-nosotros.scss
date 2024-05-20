@@ -1,0 +1,83 @@
+
+.SOMOS{
+    position: relative;
+    margin: auto;
+}
+
+.SOMOS p{
+    font-size: 50px;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+    right: 90px;
+    bottom: 90px;
+}
+
+.camioneta{
+    width: 350px;
+    height: 280px;
+}
+
+.SOMOS h1{
+    font-size: 20px;
+    color: $blanco;
+    position: absolute;
+    text-align: center;
+    top: 30%;
+    left: 66%;
+    right: 5%;
+}
+
+.unaima{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 90px;
+    left: 1050px;
+    right: 1050px;
+    bottom: 90px;
+}
+
+.dosima{
+    display: flex;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 640px;
+    left: 1050px;
+    right: 1050px;
+    bottom: 640px;
+}
+
+.OCUPACIONES p{
+    font-size: 30px;
+    background-color: $blanco;
+    padding: 10px;
+    border: solid $negro;
+}
+
+.TRABAJADOR img{
+    margin: 10px;
+    border: 7px $azul;
+}
+
+.TRABAJADOR h1{
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    top: 20px;
+    bottom: 20px;
+    left: 80px;
+    right: 80px;
+}
+
+.Textodesc{
+    display: flex;
+    position: relative;
+    text-align: start;
+    top: -230px;
+    left: 300px;
+    right: 300px;
+    bottom: -230px;
+}

@@ -1,0 +1,214 @@
+
+.contenedor-comentarios img{
+    width: 100%;
+}
+
+.contenedor-comentarios{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 95%;
+    margin: 20px;
+}
+
+.contenedor-comentarios h1{
+    margin: 10px;
+}
+
+.contenedor-comentarios h2{
+    text-align: center;
+    justify-content: center;
+    margin: 25px;
+}
+
+.area-comentar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-bottom: 1.5rem;
+    padding: 40px;
+    padding-right: 12rem;
+    background-color: $blanco;
+    box-shadow: 0 0 12px 2px $negro;
+    border-radius: 15px;
+}
+
+.contenedor-comentarios a{
+    text-decoration: none;
+}
+
+.contenedor-comentarios .comentario-usuario .avatar,
+.area-comentar .avatar{
+    display: flex;
+    width: 65px;
+    height: 65px;
+    background-color: $blanco;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.boton-subir-archivo{
+    position: relative;
+}
+
+.boton-subir-archivo input[type="file"]::file-selector-button {
+    display: none;
+}
+.boton-file,
+.boton-enviar{
+    display: inline-block;
+    border: 0;
+    background-color: $azul;
+    padding: 7px 15px;
+    margin-right: 0.5rem;
+    color: $blanco;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: ease-in 200ms;
+}
+
+.boton-enviar i,
+.boton-file i, 
+.boton-puntuar i,
+.boton-responder i {
+    margin-right: 8px;
+}
+
+.boton-file:hover,
+.boton-enviar:hover{
+    background-color: $claroazul;
+}
+
+.contenedor-comentarios .comentario-usuario .comentario,
+.area-comentar .input-comentarios{
+    flex-grow: 1;
+    flex-basis: 0;
+    margin-left: .5rem;
+}
+
+.area-comentar .input-comentarios{
+    margin-left: 1rem;
+}
+
+.contenedor-comentarios .comentario-usuario .texto,
+.area-comentar .input-comentarios .area-comentario{
+    border: 0;
+    background-color: $blanco;
+    display: block;
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: .5rem;
+}
+
+.area-comentar .input-comentarios .area-comentario{
+    padding: 12px .9375rem;
+}
+
+.area-comentar .input-comentarios .botones-comentar{
+    display: flex;
+}
+
+.comentarios-usuarios span.tiempo-comentario{
+    font-size: 0.8rem !important;
+    color: $negro;
+}
+
+.comentarios-usuarios .comentario-usuario{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comentarios-usuarios .comentario-usuario:hover .menu-comentario{
+    display: flex;
+}
+
+.comentarios-usuarios .usuario-comentario{
+    width: 100%;
+    display: block;
+    margin-bottom: 0.75rem;
+    position: relative;
+}
+
+.menu-comentario {
+    position: absolute;
+    left: calc(100% + 16px);
+    width: 30px;
+    height: 30px;
+    background-color: $semiblanco;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    cursor: pointer;
+}
+
+.menu-comentario .menu{
+    list-style: none;
+    position: absolute;
+    right: 100% ;
+    background-color: $blanco;
+    box-shadow: 0 0 5px 1px $negro;
+    border-radius: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in 200ms;
+}
+
+.menu-comentario:hover .menu{
+    opacity: 1;
+    visibility: visible;
+}
+
+.menu-comentario .menu a{
+    display: block;
+    padding: 7px 15px;
+    color: inherit;
+}
+
+.menu-comentario .menu a:hover{
+    background-color: $gris;
+}
+
+.comentario-usuario{
+    margin-left: 20px;
+}
+
+.comentarios-usuarios .comentario-usuario .avatar {
+    width: 45px;
+    height: 45px;
+}
+
+.comentarios-usuarios .comentario-usuario .texto{
+    padding: 10px 15px;
+    width: auto;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 4px;
+    font-size: 0.9rem;
+}
+
+.comentarios-usuarios .botones-comentario{
+    display: block;
+}
+
+.comentarios-usuarios .botones-comentario button {
+    display: inline-block;
+    border: 0;
+    padding: 3px 8px;
+    font-size: 12.8px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.comentarios-usuarios .botones-comentario button:hover{
+    background-color: $celeste;                               ;
+}
+
+.sub-comentario .comentario-usuario .avatar{
+    width: 32px;
+    height: 32px;
+}

@@ -1,0 +1,21 @@
+@import "./util/funciones";
+@import "./util/maps";
+@import "./util/mixins";
+@import "./util/variable";
+
+@import "./base/reset";
+@import "./base/tipografias";
+
+
+@import "./layouts/header";
+@import "./layouts/main-index";
+@import "./layouts/main-contacto";
+@import "./layouts/main-destinos";
+@import "./layouts/main-exp";
+@import "./layouts/main-nosotros";
+@import "./layouts/footer";
+@import "./layouts/main-nosotros";
+@import "./layouts/media/media768";
+@import "./layouts/media/media320";
+
+@import "./components/cards";
